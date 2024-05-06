@@ -1,6 +1,12 @@
+import SideBarLeft from './SideBarLeft';
+
 function Content() {
     return (
-        <h1>TESTE</h1>
+        <div className="bgs-content">
+            <SideBarLeft></SideBarLeft>
+            <div className="bgs-center"></div>
+            <div className="bgs-sidebar-right"></div>
+        </div>
     )
 }
 
