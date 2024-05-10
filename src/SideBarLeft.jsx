@@ -1,3 +1,5 @@
+import CategoryIten from "./CategoryIten";
+
 function SideBarLeft() {
     return <div className="bgs-sidebar-left">
         <h2>Filtrar por</h2>
@@ -8,8 +10,14 @@ function SideBarLeft() {
             <div className="sidebar-iten">
                 <span>O. Alfabética</span>
             </div>
-            <div className="sidebar-iten">
+            <div className="sidebar-iten categories">
                 <span>Categoria</span>
+                <div className="categories-itens">
+                    <CategoryIten></CategoryIten>
+                    <CategoryIten></CategoryIten>
+                    <CategoryIten></CategoryIten>
+                    <CategoryIten></CategoryIten>
+                </div>
             </div>
         </div>
     </div>

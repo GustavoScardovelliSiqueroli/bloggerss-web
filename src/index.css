@@ -190,3 +190,28 @@ body {
 .post-content:hover span{
     height: 104%;
 }
+
+.categories-itens{
+    position: absolute;
+    top: 268px;
+    background-color: #76ABAE; 
+    width: 200px;
+    height: 200px;
+    color: #31363F;
+}
+
+.categories{
+    display: flex;
+    flex-direction: column;
+}
+
+.categories > .categories-itens{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity .3s linear;
+}
+
+.categories:hover > .categories-itens{
+    visibility: visible;
+    opacity: 1;
+}
