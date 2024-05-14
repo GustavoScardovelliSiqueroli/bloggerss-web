@@ -1,7 +1,7 @@
 function NavBar() {
-    const homeLink = ()=>{window.location.href = 'home'}
-    const pageLink = ()=>{window.location.href = '/'}
-    const loginLink = ()=>{window.location.href = 'login'}
+    const homeLink = () => { window.location.href = 'home' }
+    const pageLink = () => { window.location.href = '/' }
+    const loginLink = () => { window.location.href = 'login' }
 
     return (
         <nav className="bgs-navbar">

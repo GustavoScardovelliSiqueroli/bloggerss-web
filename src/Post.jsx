@@ -8,8 +8,8 @@ function Post() {
             </div>
             <div className="post-content">
                 <div className="post-header">
-                <h3>Titulo do post</h3>
-                <PostCategory></PostCategory>
+                    <h3>Titulo do post</h3>
+                    <PostCategory></PostCategory>
                 </div>
                 <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias sapiente eligendi minus quis officiis recusandae tempore dolorum, neque hic in et itaque eos, enim sint obcaecati laborum nisi animi architecto. </span>
             </div>
