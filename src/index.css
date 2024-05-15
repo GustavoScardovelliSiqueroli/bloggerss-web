@@ -148,7 +148,6 @@ body {
 .bgs-post {
     /* background-color: red; */
     height: auto;
-    width: 80%;
     margin-bottom: 30px;
 }
 
@@ -302,7 +301,12 @@ body {
     height: 60px;
     background-color: #00a4bd;
 }
+
 .home-user:hover span {
     font-size: 25px;
     font-weight: 600px;
+}
+
+.bgs-sidebar-right {
+    width: 20%;
 }

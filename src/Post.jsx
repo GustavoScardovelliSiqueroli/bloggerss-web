@@ -1,8 +1,13 @@
 import PostCategory from "./PostCategory";
 
 function Post() {
+
+    const postLink = ()=>{
+        window.location.href = 'post'
+    }
+
     return (
-        <div className="bgs-post">
+        <div className="bgs-post" onClick={postLink}>
             <div className="post-date">
                 <h3>15 de maio de 2024</h3>
             </div>

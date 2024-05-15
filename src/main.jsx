@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import Login from './Login.jsx'
 import { Home } from './Home.jsx'
+import PostPage from './PostPage.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "home",
     element: <Home></Home>,
+  },
+  {
+    path: "post",
+    element: <PostPage></PostPage>,
   },
 ]);
 
