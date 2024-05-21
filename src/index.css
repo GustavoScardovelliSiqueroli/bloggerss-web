@@ -332,7 +332,7 @@ body {
 
 }
 
-.post-page-left h3 a {
+.post-page-creator a {
     width: 200px;
     height: 40px;
     display: flex;
@@ -344,7 +344,7 @@ body {
     transition: .3s;
 }
 
-.post-page-left h3 a:hover {
+.post-page-creator a:hover{
     width: 210px;
     height: 45px;
     background-color: #00a4bd;
@@ -365,5 +365,8 @@ body {
 }
 
 .post-page-categories{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
     background-color: red;
 }
