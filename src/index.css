@@ -186,7 +186,6 @@ body {
 
 .post-content:hover {
     box-shadow: 0px 5px 5px #76ABAE;
-    width: 102%;
     cursor: pointer;
 }
 
@@ -205,6 +204,19 @@ body {
     width: 200px;
     height: 200px;
     color: #31363F;
+}
+
+
+.categories-itens div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.categories-itens div:hover {
+    cursor: pointer;
+    background-color: #00a4bd;
 }
 
 .categories {
@@ -322,7 +334,6 @@ body {
     position: fixed;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
 }
 
@@ -345,8 +356,6 @@ body {
 }
 
 .post-page-left h3 a:hover {
-    width: 210px;
-    height: 45px;
     background-color: #00a4bd;
 
 }
@@ -364,6 +373,23 @@ body {
     margin-bottom: 20px;
 }
 
-.post-page-categories{
-    background-color: red;
+.post-page-categories {
+    background-color: #31363F;
+    color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-page-categories span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #EEEEEE;
+    width: 100%;
+}
+
+.post-page-categories span:hover {
+    background-color: #00a4bd;
+    cursor: pointer;
 }
