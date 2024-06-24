@@ -7,7 +7,7 @@ const PostPage = () => {
             <div className="bgs-content">
                 <div className="post-page-left">
                     <div className="post-page-date">27/05/2024</div>
-                    <div>
+                    <div className="post-page-creator">
                         <h3>
                             Criado por:
                             <a href="/">
